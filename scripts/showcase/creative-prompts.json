@@ -1,0 +1,66 @@
+[
+  {
+    "index": 0,
+    "id": "miniature-mountain-village",
+    "category": "3d",
+    "prompt": "A whimsical miniature mountain village built as a highly detailed stylized 3D diorama, tiny timber houses with warm windows, stone footpaths, terraced gardens, pine trees, a narrow waterfall descending from misty cliffs, soft dawn light, handcrafted materials, charming cinematic composition, no people, no text",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 501
+  },
+  {
+    "index": 1,
+    "id": "futuristic-eco-city",
+    "category": "3d",
+    "prompt": "A futuristic eco-city presented as an intricate stylized 3D architectural diorama, layered green terraces, solar canopies, glass towers wrapped with gardens, elevated transit lines, small waterways and pedestrian bridges, clean optimistic daylight, premium visualization, coherent geometry, no people, no text",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 502
+  },
+  {
+    "index": 2,
+    "id": "watercolor-canal-town",
+    "category": "illustration",
+    "prompt": "A beautiful watercolor illustration of an old canal town at sunset, narrow historic houses reflected in calm water, small arched bridges, flower boxes, moored wooden boats, glowing peach and lavender sky, loose expressive brushwork with fine architectural detail, storybook atmosphere, no people, no text",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 503
+  },
+  {
+    "index": 3,
+    "id": "storybook-cliffside-castle",
+    "category": "illustration",
+    "prompt": "A richly illustrated storybook fantasy castle built along dramatic sea cliffs, layered stone towers and bridges, waterfalls dropping into a luminous blue bay, distant mountains under golden evening clouds, elegant hand-painted 2D illustration, coherent architecture, magical but believable scale, no people, no text",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 504
+  },
+  {
+    "index": 4,
+    "id": "luxury-product-photography",
+    "category": "photoreal",
+    "prompt": "A high-end overhead studio product photograph of one COMPLETE mechanical wristwatch laid perfectly flat on a dark slate table, photographed from directly above. The ENTIRE watch is visible from the silver buckle at the top to the pointed free tip at the bottom, with generous empty space around every edge. Centered round brushed-steel case with a charcoal dial, two long continuous brown leather strap halves attached securely to the upper and lower case lugs, realistic stitching and leather texture, full-length strap clearly extended vertically. The strap occupies most of the photograph and the watch dial occupies only one third of its height. Natural shadows, elegant luxury catalog photography, no writing or logo.",
+    "negative_prompt": "missing watch strap, no strap, detached strap, broken strap, cropped band, floating dial, disconnected watch lugs, broken buckle, incomplete wristwatch, close-up dial only, wristwatch without a band, deformed watch face, warped clock hands, extra dials, unreadable lettering, brand logo, text, watermark, blurry, distorted, low quality",
+    "seed": 615
+  },
+  {
+    "index": 5,
+    "id": "cinematic-alpine-lake",
+    "category": "photoreal",
+    "prompt": "A cinematic photorealistic alpine lake at blue hour after light rain, mirror-like water reflecting snow-dusted mountains and dark evergreen forest, a small empty wooden cabin with one warm window near the shore, low mist drifting above the lake, natural atmospheric perspective, high detail, no people, no text",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 506
+  },
+  {
+    "index": 6,
+    "id": "neon-rain-bookstore",
+    "category": "photoreal",
+    "prompt": "A cinematic photorealistic interior of a cozy independent bookstore in Tokyo on a rainy evening, viewed toward a large window, warmly lit wooden bookshelves, neatly stacked books and small reading tables, vivid neon reflections on wet pavement outside, umbrellas by the entrance, soft atmospheric depth, believable perspective, finely detailed natural materials, sophisticated amber and teal lighting, no people, no readable text, no logos",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 507
+  },
+  {
+    "index": 7,
+    "id": "floating-garden-island",
+    "category": "illustration",
+    "prompt": "A magical storybook illustration of a whimsical floating garden island high above soft clouds, several miniature cottages linked by narrow stone bridges, lush flowerbeds, mossy pathways, flowering trees, warm lanterns, cascading waterfalls disappearing into the mist, golden morning light, coherent fantasy architecture, elegant hand-painted detail, joyful dreamy atmosphere, no people, no readable text, no logos",
+    "negative_prompt": "blurry, distorted, low quality, malformed geometry, unreadable text, watermark, logo",
+    "seed": 508
+  }
+]
