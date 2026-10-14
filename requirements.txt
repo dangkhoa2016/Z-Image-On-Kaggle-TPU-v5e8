@@ -1,0 +1,10 @@
+# Kaggle TPU image already provides PyTorch/XLA.
+# These versions were used in the verified runtime and are recorded for reproducibility.
+diffusers==0.37.1
+transformers==5.12.1
+safetensors
+accelerate
+Pillow
+numpy
+nbformat
+beautifulsoup4>=4.12,<5

@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+
+# Runtime-only / large artifacts
+cache/
+xla-cache/
+experimental/
+evidence/runs/
+evidence/runtime/*.log
+evidence/runtime/*-progress.json
+
+# Generated local review files
+evidence/runtime/review-*.png
+
+# Private/generated runtime results must not be committed as public evidence.
+evidence/dual/
+evidence/publication/
+evidence/visual-remediation/
+evidence/showcase/
+run_zimage_spmd.py.accepted-backup
+scripts/continue_*.sh
+scripts/finalize_*.sh
+scripts/test_xla_flash_tiny.py
+
+# Local runtime evidence (publication subset is tracked separately)
+evidence/runtime/
+
+# Local isolated worktrees
+.worktrees/
