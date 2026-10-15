@@ -1,0 +1,12 @@
+{
+  "mesh_shape": [
+    4,
+    2
+  ],
+  "global_runtime_device_count": 8,
+  "total_denoise_seconds": 90.26392993599984,
+  "maximum_safe_tested_batch_1024": 4,
+  "batch4_768_images_per_second": 0.05432903427560495,
+  "batch8_768_images_per_second": 0.04902147777792037,
+  "batch8_512_seconds": 94.98479990300075
+}
