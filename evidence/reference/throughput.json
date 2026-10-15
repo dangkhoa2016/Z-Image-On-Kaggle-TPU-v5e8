@@ -12,6 +12,20 @@
       "replica_model_speedup_vs_single_mesh": 1.3290727174751724,
       "single_mesh_warm_forward_median": 0.849760574000129,
       "replica_model_warm_forward_median": 0.28751509699986855
+    },
+    "1024": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "single_mesh_batch2_pair_seconds": 288.6454137370001,
+      "replica_model_batch2_pair_seconds": 127.21799972000008,
+      "replica_model_speedup_vs_single_mesh": 2.268903884452617,
+      "single_mesh_warm_forward_median": 8.266436781000266,
+      "replica_model_warm_forward_median": 1.1445404069997949,
+      "warm_forward_speedup": 7.222494488131905,
+      "single_mesh_vs_replica_model_latent_cosine_a": 0.9621580243110657,
+      "single_mesh_vs_replica_model_latent_cosine_b": 0.9905962944030762
     }
   }
 }
