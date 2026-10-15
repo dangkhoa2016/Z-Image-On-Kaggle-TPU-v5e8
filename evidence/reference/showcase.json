@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "slot": "3d_a",
+      "category": "3d",
+      "seed": 101,
+      "asset": "assets/showcase-3d-mountain-village.png",
+      "sha256": "b58acfdafbf7f4393f257e04a42d3c6e7c458f4eebd2acaed802063b31494da4"
+    },
+    {
+      "slot": "3d_b",
+      "category": "3d",
+      "seed": 102,
+      "asset": "assets/showcase-3d-eco-city.png",
+      "sha256": "853353399df9d76e3c9988fc684a3577b4b0f41f39e6dd61ebb83fa4c7661668"
+    },
+    {
+      "slot": "illustration_a",
+      "category": "illustration",
+      "seed": 211,
+      "asset": "assets/showcase-illustration-canal-town.png",
+      "sha256": "f366922d77e1df7d286941971d8ff847a59e886dddbdd9ea7bab5894838e8879"
+    },
+    {
+      "slot": "illustration_b",
+      "category": "illustration",
+      "seed": 202,
+      "asset": "assets/showcase-illustration-cliffside-castle.png",
+      "sha256": "89570629f1530c08db63864102923708806a076dc19a637b7ecbea1a0f3c1e35"
+    },
+    {
+      "slot": "photoreal_a",
+      "category": "photoreal",
+      "seed": 615,
+      "asset": "assets/showcase-photoreal-watch-final.png",
+      "sha256": "89023bbb74bebd325afca7d28dbfe5a46afff052f4b7f4c8b1fbc14b629100d7"
+    },
+    {
+      "slot": "photoreal_b",
+      "category": "photoreal",
+      "seed": 302,
+      "asset": "assets/showcase-photoreal-alpine-lake.png",
+      "sha256": "b8705382c50fbd1fdd869b96bb06d5b3d42c9e2125f2934232b176d56bb622b8"
+    }
+  ]
+}
