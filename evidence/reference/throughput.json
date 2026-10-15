@@ -1,0 +1,17 @@
+{
+  "comparisons": {
+    "512": {
+      "resolution": [
+        512,
+        512
+      ],
+      "sequential_1x8_pair_seconds_estimate": 124.56,
+      "single_mesh_batch2_pair_seconds": 126.2637577190003,
+      "replica_model_batch2_pair_seconds": 95.00139161600009,
+      "d10_speedup_vs_sequential": 1.3111386884044514,
+      "replica_model_speedup_vs_single_mesh": 1.3290727174751724,
+      "single_mesh_warm_forward_median": 0.849760574000129,
+      "replica_model_warm_forward_median": 0.28751509699986855
+    }
+  }
+}
