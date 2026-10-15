@@ -1,0 +1,24 @@
+[
+  {
+    "mode": "batched",
+    "resolution": "512x512",
+    "steps": 28,
+    "cfg": 3.0,
+    "denoise_s": 62.28075979699997,
+    "warm_s": 0.406716046000156,
+    "vae_s": 3.4558845270003076,
+    "sha256": "897bbf6d27ed8fbf77d20f030193c30e55dd74e574fc6034d683478c1a0311b9",
+    "status": "PASS"
+  },
+  {
+    "mode": "batched",
+    "resolution": "1024x1024",
+    "steps": 28,
+    "cfg": 3.0,
+    "denoise_s": 162.53593195500025,
+    "warm_s": 3.9636213639998914,
+    "vae_s": 8.951535854999747,
+    "sha256": "7b7a474323c67530245f1581c9d7886bc4c62ece83fb742ba311a3b87d28b137",
+    "status": "PASS"
+  }
+]
