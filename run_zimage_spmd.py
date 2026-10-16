@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse,json,os,time,traceback
-BASE='/kaggle/working/zimage-tpu'; MODEL='/kaggle/input/models/dangkhoa2016/tongyi-mai-z-image/pytorch/default/1'
+from pathlib import Path
+BASE=str(Path(__file__).resolve().parent); MODEL='/kaggle/input/models/dangkhoa2016/tongyi-mai-z-image/pytorch/default/1'
 def build_arg_parser():
  ap=argparse.ArgumentParser(); ap.add_argument('--width',type=int,required=True); ap.add_argument('--height',type=int,required=True); ap.add_argument('--steps',type=int,default=28); ap.add_argument('--guidance',type=float,default=3.0); ap.add_argument('--seed',type=int,default=42); ap.add_argument('--slug',required=True); ap.add_argument('--negative-mode',choices=['explicit','empty'],default='explicit'); ap.add_argument('--cfg-execution',choices=['batched','sequential'],default='batched'); ap.add_argument('--caption-pad-multiple',type=int,default=32); ap.add_argument('--attention-query-chunk-size',type=int,default=0); ap.add_argument('--attention-chunk-sync',action='store_true'); ap.add_argument('--embeddings',required=True); ap.add_argument('--xla-cache-dir',default=f'{BASE}/xla-cache'); ap.add_argument('--instance-id',default='single'); return ap
 def main():
