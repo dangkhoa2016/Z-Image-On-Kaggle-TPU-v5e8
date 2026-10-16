@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite the repository and the upstream Z-Image project as appropriate."
+title: "Z-Image on Kaggle TPU v5e-8"
+type: software
+authors:
+  - name: "Đăng Khoa"
+    email: "i.am@dangkhoa.dev"
+version: 1.0.0
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/dangkhoa2016/Z-Image-On-Kaggle-TPU-v5e8"
+url: "https://github.com/dangkhoa2016/Z-Image-On-Kaggle-TPU-v5e8"
+keywords:
+  - Z-Image
+  - Kaggle
+  - TPU
+  - PyTorch/XLA
+  - SPMD
