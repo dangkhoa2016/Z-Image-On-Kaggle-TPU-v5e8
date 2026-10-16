@@ -1,0 +1,31 @@
+name: Báo lỗi
+description: Báo cáo lỗi có thể reproduce trên đường Kaggle TPU inference.
+title: "[Bug][VI] "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Vấn đề
+      description: Điều gì đã xảy ra và bạn mong đợi điều gì?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Loại Kaggle TPU và version Python, torch, torch_xla, diffusers, transformers.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Cách reproduce
+      description: Exact command, resolution, seed, steps, CFG mode và topology.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log liên quan đã loại secret
+      render: shell

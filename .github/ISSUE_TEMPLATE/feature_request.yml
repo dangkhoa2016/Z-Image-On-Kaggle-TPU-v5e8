@@ -1,0 +1,24 @@
+name: Feature request
+description: Propose a scoped improvement to the project.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What user-visible problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest implementation that would satisfy the goal.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: How should the change be tested or evidenced on Kaggle TPU?
